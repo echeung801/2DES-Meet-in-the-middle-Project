@@ -1,5 +1,5 @@
-2DES-Meet-in-the-middle-Project
-Analyzing the cryptographic weaknesses of 2DES and explaining why it doesn't work. Written in Python.
+2DES-Meet-in-the-middle Class Project
+Objective: Analyzing the cryptographic weaknesses of 2DES through a Meet-In-The-Middle cryptanalytic attack. Written in Python.
 
 Implemented the Simplified Data Encryption Standard (S-DES), a Feistel cipher based off DES with a block size of 8-bits and a key size of 10-bits.
 
