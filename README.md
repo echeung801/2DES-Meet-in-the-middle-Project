@@ -19,5 +19,7 @@ After finding the key, use the key with the IV = 0xa6 to decrypt the following t
 Ciphertext in hexidecimal = 0xaa7a211c558bc0cedb51887f5e98de4d315b8b78cb39cb598c6b54cd6b54d5ef25a464c24e55dde1e4b3c477723c406d37fc6e0599e9d24d907849cd391267b6e3fe25f516accfbe297b4540078563fc25d0dbefc6e04fee3818d60aeec460798ad78d
 
 
-The goal of this project was to examine why doubling bit size of the key size does not suffice for good encryption strength. 
-In summary, if DES has 2^56 bit strength, then doubling the key size would only increase the bit strength by 1. As 2 * 2^56 is only 2^57, which is a marginal increase in bit strength.
+
+Conclusion: The goal of this project was to examine why doubling bit size of the key size does not suffice for good encryption strength. 
+In summary, if DES has 2^56 bit strength, then doubling the key size would only increase the bit strength by 1. 
+As 2 * 2^56 is only 2^57, which is a marginal increase in bit strength.
